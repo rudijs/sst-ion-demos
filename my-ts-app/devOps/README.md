@@ -13,3 +13,5 @@
 - `sst dev --stage $SST_STAGE`
 - Remove
 - `sst remove --stage $SST_STAGE`
+- `sst secret list --stage $SST_STAGE`
+- `sst secret remove MySecret --stage $SST_STAGE`
