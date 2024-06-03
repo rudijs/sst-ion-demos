@@ -15,3 +15,9 @@
 - `sst remove --stage $SST_STAGE`
 - `sst secret list --stage $SST_STAGE`
 - `sst secret remove MySecret --stage $SST_STAGE`
+
+## DEPLOY
+
+- `sst secret set MySecret abc123 --stage $SST_STAGE`
+- `sst deploy --stage $SST_STAGE`
+- `sst remove --stage $SST_STAGE`

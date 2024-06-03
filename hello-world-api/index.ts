@@ -1,7 +1,6 @@
 import { Resource } from "sst"
 
 export async function upload() {
-  // const command = new PutObjectCommand({
   //   Key: crypto.randomUUID(),
   //   Bucket: Resource.MyBucket.name,
   // });
