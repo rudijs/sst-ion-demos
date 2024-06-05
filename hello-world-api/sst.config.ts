@@ -16,7 +16,11 @@ export default $config({
   },
   // async run() {},
   async run() {
-    const api = new sst.aws.ApiGatewayV2("MyApi")
+    const api = new sst.aws.ApiGatewayV2("MyApi", {
+      accessLog: {
+        retention: "1 week",
+      },
+    })
 
     const secret = new sst.Secret("MySecret")
 
